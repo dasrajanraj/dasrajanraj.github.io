@@ -84,8 +84,8 @@ header{
 }
 
 .imae{
-    
-    color:rgb(255, 240, 172);
+    letter-spacing: 0.1px;
+    color:rgb(243, 239, 219);
     font-size: 14px;
     border-radius: 20px;
     padding: 3vh;
@@ -102,9 +102,7 @@ header{
     border-radius: 20px;
     width:100%;
 }
-.imag{
-    background-color: burlywood;
-}
+
 .menu{
     margin-top: 10vh;
     margin-bottom: 10vh;
