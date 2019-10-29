@@ -496,6 +496,9 @@ td > .first{
     .aboutUs-image{
         padding:0;
     }
+    .takeawaycontent{
+        margin-top: 10vh;
+    }
     .page{
         margin: 2px 5px ;
         border: 1px solid #bdc3c7;
