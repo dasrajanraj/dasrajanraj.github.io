@@ -401,8 +401,8 @@ td > .first{
     font-size:22px;
     color:red;
 }
-.price{
-    width:30vh;
+.sno{
+    width:10vh;
 }
 .description{
     width:80vh;
@@ -544,6 +544,20 @@ td > .first{
     }
     .col-lg-12{
         padding: 0;
+    }
+    
+    .sno{
+        width:10vh;
+    }
+    .description{
+        width:90vh;
+    }
+    .price{
+        width:20vh;
+    }
+    .desc{
+        font-style: italic;
+        font-size: 12px;
     }
     .disclaimer{
         padding-left: 0;
