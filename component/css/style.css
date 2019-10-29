@@ -216,7 +216,7 @@ footer{
 	width: 30%;
 }
  
-.footer-distributed h3{
+.footer-distributed h4{
 	color:  #ffffff;
 	font-size:20;
 	margin: 0;
@@ -228,7 +228,7 @@ footer{
 	width: 30%;
 }
  
-.footer-distributed h3 span{
+.footer-distributed h4 span{
 	color: rgb(187, 12, 12);
 }
  
@@ -532,7 +532,5 @@ td > .first{
     .col-lg-12{
         padding: 0;
     }
-    footer-distributed h3{
-        font-size: 10px;
-    }
+    
 }
