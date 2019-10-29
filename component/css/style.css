@@ -556,6 +556,9 @@ td > .first{
         width:10vh;
         text-align: right;
     }
+    tr{
+        box-shadow: 0 2px rgba(0, 0, 0, 0.541)
+    }
     .desc{
         font-style: italic;
         font-size: 12px;
