@@ -23,6 +23,10 @@ header{
     position: inherit;
     float: right;
 }
+.navbar-brand > image{
+    width: auto;
+    height: auto;
+}
 
 .navbar-nav > li{
     padding-left:30px;
