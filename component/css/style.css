@@ -353,6 +353,8 @@ footer{
 } 
 
 .content {
+    font-weight: bold;
+    letter-spacing: 1px;
 	padding: 20px;
 }
 h2 {
@@ -411,6 +413,13 @@ td > .first{
 .desc{
     font-style: italic;
     font-size: 12px;
+}
+.disclaimer{
+    padding:0 10vh 20vh 0  ;
+    float: right;
+}
+.fa-pepper-hot{
+    color:red;
 }
 
 
