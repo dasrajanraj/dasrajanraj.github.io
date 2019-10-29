@@ -480,12 +480,10 @@ td > .first{
     body{
         overflow-x: hidden !important;
     }
-    main{
+    .aboutUs , .menu ,.contact{
         padding: 0 1vh;
     }
-    .home{
-        padding: 0;
-    }
+    
     .carousel-inner > .carousel-item > img{
         padding: 0;
         margin: 0;
