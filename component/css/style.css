@@ -415,11 +415,15 @@ td > .first{
     font-size: 12px;
 }
 .disclaimer{
-    padding:0 10vh 20vh 0  ;
-    float: right;
+    padding-left: 40vh;
 }
 .fa-pepper-hot{
     color:red;
+}
+.fa-seedling{
+    color: green;
+    width: 20px;
+    height: 20px;
 }
 
 
@@ -541,5 +545,7 @@ td > .first{
     .col-lg-12{
         padding: 0;
     }
-    
+    .disclaimer{
+        padding-left: 0;
+    }
 }
