@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
 html {
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
 }
+*{
+    font-family: 'Playfair Display', serif;
+}
 body{
+    
     margin: 0;
     padding: 0;
   
@@ -50,11 +56,10 @@ header{
     margin: 20px;
     padding: 50px;
     border-radius:50px;
-    background-color:rgba(255, 0, 0, 0.904);
 }
 .aboutUs{
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
 }
 .hr-style{
         padding: 0;
@@ -69,21 +74,23 @@ header{
 }
 
 .imae{
+    
+    color:rgb(255, 240, 172);
+    font-size: 14px;
     border-radius: 20px;
     padding: 3vh;
-    background-color: brown;
+    background-color: rgba(246, 11, 11,0.7);
 }
 .col-md-5{
     margin: 0;
 }
 .aboutUs-image{
 
-    padding:5%;
+    padding:1%;
 }
 .aboutUs-image > img{
     border-radius: 20px;
     width:100%;
-    height: 100wh;
 }
 .imag{
     background-color: burlywood;
@@ -470,5 +477,7 @@ td > .first{
         border: 1px solid #bdc3c7;
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 16px;	
-    } 
+    }
+
+
 }
