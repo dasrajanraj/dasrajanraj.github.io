@@ -478,7 +478,7 @@ td > .first{
 /*mobile phone*/
 @media only screen and (max-width: 480px) {
     body{
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     main{
         padding: 0 1vh;
