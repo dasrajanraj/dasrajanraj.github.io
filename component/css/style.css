@@ -528,4 +528,7 @@ td > .first{
     .col-lg-12{
         padding: 0;
     }
+    footer-distributed h3{
+        font-size: 18px;
+    }
 }
