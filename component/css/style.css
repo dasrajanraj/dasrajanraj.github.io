@@ -503,7 +503,6 @@ td > .first{
     }
     .embeddedmap{
         position: relative;
-        padding-bottom: 70%;
         height: 0;
         overflow: hidden;
     }
