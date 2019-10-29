@@ -23,9 +23,9 @@ header{
     position: inherit;
     float: right;
 }
-.navbar-brand > image{
-    width: auto;
-    height: auto;
+.navbar-brand > img{
+    width: 10vh;
+    height: 10vh;
 }
 
 .navbar-nav > li{
