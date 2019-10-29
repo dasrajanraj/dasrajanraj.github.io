@@ -497,7 +497,7 @@ td > .first{
         padding:0;
     }
     .takeawaycontent{
-        margin-top: 15vh;
+        margin-top: 25vh;
     }
     .page{
         margin: 2px 5px ;
@@ -533,6 +533,6 @@ td > .first{
         padding: 0;
     }
     footer-distributed h3{
-        font-size: 25px;
+        font-size: 15px;
     }
 }
