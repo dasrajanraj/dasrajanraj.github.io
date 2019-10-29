@@ -554,6 +554,8 @@ td > .first{
     }
     .price{
         width:10vh;
+    }
+    table tr td:nth-child(3){
         text-align: right;
     }
     tr{
