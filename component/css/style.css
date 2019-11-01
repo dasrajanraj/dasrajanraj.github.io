@@ -90,12 +90,9 @@ header{
 .col-md-5{
     margin: 0;
 }
-.aboutUs-image{
 
-    padding:1%;
-}
 .aboutUs-image > img{
-    border-radius: 20px;
+ /*   border-radius: 20px;*/
     width:100%;
 }
 
@@ -496,7 +493,7 @@ td > .first{
     body {
         position: relative
     }
-    .aboutUs , .menu ,.contact{
+    .menu ,.contact{
         padding: 0 1vh;
     }
     
