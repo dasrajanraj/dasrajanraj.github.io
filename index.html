@@ -11,6 +11,7 @@
           <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
           <link rel="stylesheet" href="./component/css/style.css">    
           <script src="https://kit.fontawesome.com/d62bf6ec58.js" crossorigin="anonymous"></script>
+          <script src="form.js"></script> 
         </head>
     <body>
         <!--This is for navigation and all the header element like a logo and language selection-->
@@ -124,19 +125,42 @@
             </div>
             <div class="row">   
               <div class="col-md-12">
-                    <div class = "aboutUs-image" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in">
-                        <img src="./component/Image/about.jpg" alt="Image of Restaurant">
+                  <div id="demo" class="carousel slide" data-ride="carousel">
+
+                      <!-- Indicators -->
+                      <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                      </ul>
+                    
+                      <!-- The slideshow -->
+                      <div class="carousel-inner" id="carao">
+                        <div class="carousel-item active">
+                          <img class="abt" src="./component/Image/about.jpg" alt="img1">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="abt" src="./component/Image/about1.jpg" alt="img2">
+                        </div>
+                      </div>
+                    
+                      <!-- Left and right controls -->
+                      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                      </a>
+                      <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                      </a>
                     </div>
-                </div>  
-               
+              </div>    
               <div class="col-md-12" >
-                
-                <div class="aboutUs-content imae" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in">
-                  <center>
-                  <h3>Welcome to the Royal Asian Restaurant!</h3>
-                  <p>We are located in Old town of Tallinn. <br> We offer delicious different kitchens’ cuisines such as Chinese, Thai, Indian & Nepali.<br>
-                  Our cuisines are made from fresh ingredients according to the original recipes.<br>Come and Enjoy with Us !!</p></center>
-                </div>
+                  <div class="aboutUs-content imae">
+                    <center>
+                    <h3>Welcome to the Royal Asian Restaurant!</h3>
+                    <p>We are located in Old town of Tallinn. <br> We offer delicious different kitchens’ cuisines such as Chinese, Thai, Indian & Nepali.<br>
+                    Our cuisines are made from fresh ingredients according to the original recipes.<br>Come and Enjoy with Us !!</p></center>
+              </div>
+            </div>  
+              
             </div>
           </div>
           <!--#####About Us -->
@@ -279,34 +303,39 @@
                  <div class="form-content" data-aos="fade-left" data-aos-duration="1000">
                       <center><h4>Drop Us a Message!</h4></center>
                       <div class="row">
-                        <div class="col-lg-12">
-                            <form class="contactForm" action="mailto:info@royalasian.ee">
-                              <div class="row">
-                                <div class="col-lg-12">
-                                  <div class="field form-group">
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"/>
+                          <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+                              <div class="panel panel-danger">
+                                  <div class="panel-body">
+                                      <form id="reused_form">
+                                          <div class="form-group">
+                                              <label><i class="fa fa-user" aria-hidden="true"></i> Name</label>
+                                              <input type="text" name="name" class="form-control" placeholder="Enter Name">
+                                          </div>
+                                                  <div class="form-group">
+                                                      <label><i class="fa fa-envelope" aria-hidden="true"></i> Email</label>
+                                                      <input type="email" name="email" class="form-control" placeholder="Enter Email">
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label><i class="fa fa-comment" aria-hidden="true"></i> Message</label>
+                                                      <textarea rows="3" name="message" class="form-control" placeholder="Type Your Message"></textarea>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <button class="btn btn-raised btn-block btn-danger">Post &rarr;</button>
+                                                  </div>
+                                              </form>
+                                              <div id="error_message" style="width:100%; height:100%; display:none; ">
+                                                  <h4>
+                                                      Error
+                                                  </h4>
+                                                  Sorry there was an error sending your form. 
+                                              </div>
+                                              <div id="success_message" style="width:100%; height:100%; display:none; ">
+              <h2>Success! Your Message was Sent Successfully.</h2>
+              </div>
+                                          </div>
+                                      </div>
                                   </div>
-                                  <div class="field form-group">
-                                    <input type="text" class="form-control" name="email" id="email" placeholder="Your Email"/>
-                      
-                                  </div>
-                                  <div class="field form-group">
-                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"/>
-                                  </div>
-                                </div>
-                                <div class="col-lg-12">
-                                  <div class="field message form-group">
-                                    <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
-                                  </div>
-                                  <div class="col-lg-12">
-                                      <input type="submit" value="Send message" class="btn btn-info">
-                                  </div>
-                                  
-                                </div>
                               </div>
-                            </form>
-                        </div>
-                      </div>
                 </div>
               </div>
                <div class="offset-md-1"></div>
