@@ -18,9 +18,10 @@ $validator->fields(['name','email'])->areRequired()->maxLength(50);
 $validator->field('email')->isEmail();
 $validator->field('comments')->maxLength(6000);
 
-
-
-
 $pp->sendEmailTo('info@royalasian.ee'); // ← Your email here
 
 echo $pp->process($_POST);
+
+
+
+
