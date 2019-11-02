@@ -168,6 +168,10 @@ header{
     
     border-radius: 50px;
 }
+.icon-space >img{
+    width: 15vh;
+    height: 15vh;
+}
 
 .contact{
     margin-top: 10vh;
