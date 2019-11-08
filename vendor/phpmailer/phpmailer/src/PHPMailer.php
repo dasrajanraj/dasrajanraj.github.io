@@ -424,7 +424,7 @@ class PHPMailer
      *
      * @var string|callable|\Psr\Log\LoggerInterface
      */
-    public $Debugoutput = 'echo';
+    public $Debugoutput = '';
 
     /**
      * Whether to keep SMTP connection open after each message.

@@ -126,7 +126,7 @@ class SMTP
      *
      * @var string|callable|\Psr\Log\LoggerInterface
      */
-    public $Debugoutput = 'echo';
+    public $Debugoutput = '';
 
     /**
      * Whether to use VERP.
@@ -249,7 +249,7 @@ class SMTP
             return;
         }
         //Avoid clash with built-in function names
-        if (!in_array($this->Debugoutput, ['error_log', 'html', 'echo']) and is_callable($this->Debugoutput)) {
+        if (!in_array($this->Debugoutput, ['error_log', 'html', '']) and is_callable($this->Debugoutput)) {
             call_user_func($this->Debugoutput, $str, $level);
 
             return;
@@ -260,29 +260,13 @@ class SMTP
                 error_log($str);
                 break;
             case 'html':
-                //Cleans up output a bit for a better looking, HTML-safe output
-                echo gmdate('Y-m-d H:i:s'), ' ', htmlentities(
-                    preg_replace('/[\r\n]+/', '', $str),
-                    ENT_QUOTES,
-                    'UTF-8'
-                ), "<br>\n";
+                //Cleans up output a bit for a better looking, HTML-safe outpu
                 break;
             case 'echo':
             default:
                 //Normalize line breaks
                 $str = preg_replace('/\r\n|\r/ms', "\n", $str);
-                echo gmdate('Y-m-d H:i:s'),
-                "\t",
-                    //Trim trailing space
-                trim(
-                //Indent for readability, except for trailing break
-                    str_replace(
-                        "\n",
-                        "\n                   \t                  ",
-                        trim($str)
-                    )
-                ),
-                "\n";
+               
         }
     }
 
@@ -1236,7 +1220,7 @@ class SMTP
      *
      * @param string|callable $method The name of the mechanism to use for debugging output, or a callable to handle it
      */
-    public function setDebugOutput($method = 'echo')
+    public function setDebugOutput($method = '')
     {
         $this->Debugoutput = $method;
     }
