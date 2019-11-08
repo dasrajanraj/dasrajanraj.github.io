@@ -35,7 +35,7 @@
         $mail->Subject = 'FEEDBACK FORM: '.$name;
         $mail->Body    = $message;
         if($mail->send()){
-            echo "Message Successfully sent";
+            echo "<center><div style='margin-top:30%; color: green; font-weight:bolder'> <h1>Message Successfully sent</h1></div><center>";
         }
     } catch (Exception $e) {
         echo "Message could not be sent. Mailer Error.";
