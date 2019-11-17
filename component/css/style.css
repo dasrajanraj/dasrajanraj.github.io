@@ -565,7 +565,10 @@ td > .first{
 }
 .footer-distributed .footer-center{
     text-align: left;
-    font-size:13px ;
+    
+}
+.footer-center div a p span{
+    font-size: 13px;
 }
 
     .col-md-3{
