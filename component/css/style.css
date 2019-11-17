@@ -602,6 +602,9 @@ td > .first{
     table tr td:nth-child(3){
         text-align: right;
     }
+    table tr td:nth-child(1){
+        margin-top:2px ;
+    }
     tr{
         box-shadow: 0 2px rgba(0, 0, 0, 0.541)
     }
