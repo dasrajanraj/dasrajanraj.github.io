@@ -557,6 +557,13 @@ td > .first{
             width: 70% !important;
             height: 60vh !important;
     }
+     
+.footer-distributed h4{
+	color:  #ffffff;
+	font-size:12px;
+	margin: 0;
+}
+
     .col-md-3{
         padding: 0;
     }
