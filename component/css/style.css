@@ -47,7 +47,7 @@ header{
     height:10vh;
 }
 .carousel-inner{
-    background-color: rgba(255, 0,0,0.75);
+    background-color: rgb(109, 109, 109)
 }
 .carousel-inner > .carousel-item > img{
     padding-left:30vh ;
