@@ -567,8 +567,11 @@ td > .first{
     text-align: left;
     
 }
-.footer-center div a p span{
-    font-size: 13px;
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 2;
 }
 
     .col-md-3{
