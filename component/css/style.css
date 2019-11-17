@@ -38,22 +38,22 @@ header{
     background-color: rgba(255, 0,0,0.75);
 }
 .dropdown-item:hover{
-    background-color: rgba(214, 212, 212, 0.664);
+    background-color: rgba(156, 153, 153, 0.664);
     color: rgb(255, 0,0);
     font-weight: bolder;
 }
 
 .header-main-gap{
     height:10vh;
+} 
+#home .carousel-inner{
+    background-color: rgba(255, 113, 113, 0.205);
 }
-/* .carousel-inner{
-    background-color: rgb(109, 109, 109)
-} */
 .carousel-inner > .carousel-item > img{
-    padding-left:30vh ;
-    padding-left:30vh ; 
+
+    padding-left:25vh ; 
     margin: 0;
-    width: 80%;
+    width: 90%;
     height: 90vh;
 }
 .carousel-control-prev > .carousel-control-prev-icon:hover{
@@ -116,6 +116,10 @@ header{
 }
 .row{
     margin: 0
+}
+
+#dishes > .carousel-inner{
+    overflow: visible;
 }
 .card{
     border:1px solid rgba(255, 255, 255, 0);
