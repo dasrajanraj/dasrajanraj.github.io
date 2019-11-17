@@ -46,9 +46,9 @@ header{
 .header-main-gap{
     height:10vh;
 }
-.carousel-inner{
+/* .carousel-inner{
     background-color: rgb(109, 109, 109)
-}
+} */
 .carousel-inner > .carousel-item > img{
     padding-left:30vh ;
     padding-left:30vh ; 
