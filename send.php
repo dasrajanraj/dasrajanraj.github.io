@@ -26,7 +26,7 @@
     
         //Recipients
         $mail->setFrom($_POST['email'],$_POST['name']);
-        $mail->addAddress('dasrajanraj@gmail.com');
+        $mail->addAddress('********************');
         $mail->addReplyTo($_POST['email'],$_POST['name']);
     
     
