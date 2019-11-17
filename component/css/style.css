@@ -560,11 +560,12 @@ td > .first{
      
 .footer-distributed h4{
 	color:  #ffffff;
-	font-size:12px;
+	font-size:15px;
 	margin: 0;
 }
 .footer-distributed .footer-center{
-	text-align: left;
+    text-align: left;
+    font-size:14px ;
 }
 
     .col-md-3{
