@@ -118,7 +118,22 @@ header{
     margin: 0
 }
 
-#dishes > .carousel-inner{
+#dishes1 > .carousel-inner{
+    overflow: visible;
+}
+#dishes2 > .carousel-inner{
+    overflow: visible;
+}
+#dishes3 > .carousel-inner{
+    overflow: visible;
+}
+#dishes4 > .carousel-inner{
+    overflow: visible;
+}
+#dishes5 > .carousel-inner{
+    overflow: visible;
+}
+#dishes6 > .carousel-inner{
     overflow: visible;
 }
 .card{
