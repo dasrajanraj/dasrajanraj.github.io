@@ -634,5 +634,8 @@ td > .first{
     .disclaimer{
         padding-left: 0;
     }
+    td{
+        font-size: smaller;
+    }
 }
 
