@@ -636,6 +636,8 @@ td > .first{
     }
     td{
         font-size: smaller;
+        letter-spacing: 0px;
+        line-height:1px;
     }
 }
 
