@@ -177,24 +177,76 @@
                 <div class="offset-md-1"></div>
                 <div class="col-md-3">
                   <div class="menu-item-group " data-aos="fade-right" data-aos-duration="1000" >
-                      <div class="card">
-                          <img class="card-img-top" src="../Image/appitiser.jpg" alt="Card image">
-                          <div class="card-img-overlay">
-                            <h4 class="card-title">Закуска</h4>
-                            <a href="../pages/rus_appitiser.html" class="btn btn-primary btn-sm">Больше связанных</a>
-                          </div>
+                      <div class="menu-item-group" data-aos="fade-left" data-aos-duration="1000">
+                        <div id="dishes" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+                            <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="card">
+                                <img class="card-img-top d-block w-100" src="../Image/appitiser1.jpg">
+                                <div class="card-img-overlay">
+                                    <h4 class="card-title">Закуска</h4>
+                                    <a href="../pages/rus_appitiser.html" class="btn btn-primary btn-sm">Больше связанных</a>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card">
+                                <img class="card-img-top d-block w-100" src="../Image/appitiser2.jpg" alt="First slide">
+                                <div class="card-img-overlay">
+                                    <h4 class="card-title">Закуска</h4>
+                                    <a href="../pages/rus_appitiser.html" class="btn btn-primary btn-sm">Больше связанных</a>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card">
+                                <img class="card-img-top d-block w-100" src="../Image/appitiser3.jpg" alt="First slide">
+                                <div class="card-img-overlay">
+                                    <h4 class="card-title">Закуска</h4>
+                                    <a href="../pages/rus_appitiser.html" class="btn btn-primary btn-sm">Больше связанных</a>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
                         </div>
+                      </div>
                   </div>
                 </div>
                 <div class="col-md-3">
                   <div class="menu-item-group"data-aos="fade-down" data-aos-duration="1000">
-                      <div class="card">
-                          <img class="card-img-top" src="../Image/soup.jpg" alt="Card image">
-                          <div class="card-img-overlay">
-                            <h4 class="card-title">Суп</h4>
-                            <a href="../pages/rus_soups.html" class="btn btn-primary btn-sm">Больше связанных</a>
+                      <div class="menu-item-group" data-aos="fade-left" data-aos-duration="1000">
+                          <div id="dishes" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+                              <div class="carousel-inner" role="listbox">
+                              <div class="carousel-item active">
+                                  <div class="card">
+                                  <img class="card-img-top d-block w-100" src="../Image/Суп1.jpg">
+                                  <div class="card-img-overlay">
+                                      <h4 class="card-title">Суп</h4>
+                                      <a href="../pages/rus_soups.html" class="btn btn-primary btn-sm">Больше связанных</a>
+                                  </div>
+                                  </div>
+                              </div>
+                              <div class="carousel-item">
+                                  <div class="card">
+                                  <img class="card-img-top d-block w-100" src="../Image/soup2.jpg">
+                                  <div class="card-img-overlay">
+                                      <h4 class="card-title">Суп</h4>
+                                      <a href="../pages/rus_soups.html" class="btn btn-primary btn-sm">Больше связанных</a>
+                                  </div>
+                                  </div>
+                              </div>
+                              <div class="carousel-item">
+                                  <div class="card">
+                                  <img class="card-img-top d-block w-100" src="../Image/soup3.jpg">
+                                  <div class="card-img-overlay">
+                                      <h4 class="card-title">Суп</h4>
+                                      <a href="..pages/rus_soups.html" class="btn btn-primary btn-sm">Больше связанных</a>
+                                  </div>
+                                  </div>
+                              </div>
+                              </div>
                           </div>
-                        </div>
+                      </div>
                   </div> 
                 </div>
                 <div class="col-md-3">
@@ -439,5 +491,20 @@
   logged_in_greeting="Hello, How can we help you?"
   logged_out_greeting="Thank you for reaching out, have a good day..">
       </div>
+      <script>
+        $('#demo').carousel({
+          interval: 2000,
+          pause: false
+        })
+        $('#demo1').carousel({
+          interval: 1200,
+          pause: false
+        })
+        $('#dishes').carousel({
+          interval: 400,
+          pause: false
+        })
+        
+      </script>
       </body>
 </html> 
