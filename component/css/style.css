@@ -638,5 +638,8 @@ td > .first{
         font-size:x-small;
         letter-spacing: 0px;
     }
+    .desc{
+        font-size: xx-large;
+    }
 }
 
