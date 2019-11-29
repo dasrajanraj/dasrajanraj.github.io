@@ -91,6 +91,9 @@ header{
         background-image: -o-linear-gradient(left, #f0f0f0,  #fb0000, #f0f0f0); 
       
 }
+#demo2{
+    display:none;
+}
 
 .imae{
     letter-spacing: 0.1px;
@@ -330,7 +333,7 @@ footer{
 	color:rgb(187, 12, 12);
 	text-decoration: none;;
 }
- 
+
  
 /* Footer Right */
  
@@ -608,6 +611,9 @@ td > .first{
     .col-lg-12{
         padding: 0;
     }
+    .col-md-12{
+        padding:0;
+    }
     
     .sno{
         width:10vh;
@@ -640,6 +646,12 @@ td > .first{
     }
     .desc{
         font-size: xx-small;
+    }
+    #demo1{
+        display: none;
+    }
+    #demo2{
+        display:inline-block;
     }
 }
 
